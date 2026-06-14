@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nithya — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">Nithya</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger">☰</button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" class="mob-link">About</a>
+  <a href="#skills" class="mob-link">Skills</a>
+  <a href="#projects" class="mob-link">Projects</a>
+  <a href="#resume" class="mob-link">Resume</a>
+  <a href="#contact" class="mob-link">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="greeting">👋 Hi there, I'm</p>
+      <h1>Nithya</h1>
+      <p class="hero-tagline">Aspiring <strong id="typed-text">Developer</strong></p>
+      <p class="hero-sub">A Computer Science student passionate about building useful applications and learning new technologies.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">See My Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo">👩‍💻</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label">Who I Am</p>
+  <h2>About Me</h2>
+  <div class="about-grid">
+    <div class="about-photo">👩‍💻</div>
+    <div class="about-bio">
+      <p class="bio-lead">Hi! I'm Nithya, a Computer Science student currently doing my internship, passionate about web development and software engineering.</p>
+      <p>I enjoy solving real-world problems through technology. I have worked on projects in healthcare, finance, and operating systems concepts — always eager to learn and grow.</p>
+      <p>When I'm not coding, I enjoy reading tech blogs, exploring new tools, and participating in hackathons.</p>
+      <div class="about-badges">
+        <span class="badge">🎓 CSE Student</span>
+        <span class="badge">💼 Intern</span>
+        <span class="badge">🚀 Quick Learner</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label">What I Know</p>
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card"><div class="skill-icon">🌐</div><div class="skill-name">HTML & CSS</div></div>
+    <div class="skill-card"><div class="skill-icon">⚡</div><div class="skill-name">JavaScript</div></div>
+    <div class="skill-card"><div class="skill-icon">☕</div><div class="skill-name">Java</div></div>
+    <div class="skill-card"><div class="skill-icon">🐍</div><div class="skill-name">Python</div></div>
+    <div class="skill-card"><div class="skill-icon">🗄️</div><div class="skill-name">MySQL</div></div>
+    <div class="skill-card"><div class="skill-icon">💻</div><div class="skill-name">C Programming</div></div>
+    <div class="skill-card"><div class="skill-icon">🧠</div><div class="skill-name">Data Structures</div></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label">What I've Built</p>
+  <h2>My Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project-card" data-index="0">
+      <div class="project-thumb">🏥</div>
+      <div class="project-body">
+        <h3>HealthEase</h3>
+        <p>A healthcare web app that helps users track their health records, book doctor appointments, and get basic health tips easily.</p>
+      </div>
+    </div>
+
+    <div class="project-card" data-index="1">
+      <div class="project-thumb">📈</div>
+      <div class="project-body"
+        <h3>Stock Price Viewer</h3>
+        <p>A tool that fetches and displays live stock prices using a financial API, with a clean interface to search and compare stocks.</p>
+      </div>
+    </div>
+
+    <div class="project-card" data-index="2">
+      <div class="project-thumb">💾</div>
+      <div class="project-body">
+        <h3>Disk Scheduling</h3>
+        <p>A simulation of disk scheduling algorithms (FCFS, SSTF, SCAN) that visually shows how the disk head moves to serve requests.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+  <p class="section-label">My Background</p>
+  <h2>Resume</h2>
+  <div class="resume-box">
+    <div>
+      <h3>Nithya — CSE Student & Intern</h3>
+      <p>Download my resume to view my education, internship experience, and project details.</p>
+    </div>
+    <a href="resume.pdf" download class="btn btn-primary">⬇ Download Resume</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label">Get In Touch</p>
+  <h2>Contact Me</h2>
+  <p class="contact-sub">Feel free to reach out for internship opportunities, collaborations, or just to say hi!</p>
+  <div class="contact-cards">
+    <a href="mailto:nithya@email.com" class="contact-item">
+      <span class="c-icon">✉️</span>
+      <div><div class="c-label">Email</div><div class="c-value">nithya@email.com</div></div>
+    </a>
+    <a href="tel:+919999999999" class="contact-item">
+      <span class="c-icon">📞</span>
+      <div><div class="c-label">Phone</div><div class="c-value">+91 99999 99999</div></div>
+    </a>
+    <a href="https://linkedin.com/in/nithya" target="_blank" class="contact-item">
+      <span class="c-icon">🔗</span>
+      <div><div class="c-label">LinkedIn</div><div class="c-value">linkedin.com/in/nithya</div></div>
+    </a>
+    <a href="https://github.com/nithya" target="_blank" class="contact-item">
+      <span class="c-icon">🐙</span>
+      <div><div class="c-label">GitHub</div><div class="c-value">github.com/nithya</div></div>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Nithya. All rights reserved.</p>
+  <div class="footer-links">
+    <a href="#home">Back to Top ↑</a>
+    <a href="mailto:nithya@email.com">Email Me</a>
+    <a href="https://github.com/nithya" target="_blank">GitHub</a>
+  </div>
+</footer>
+
+<!-- Scroll to top button -->
+<button class="scroll-top" id="scrollTop">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
